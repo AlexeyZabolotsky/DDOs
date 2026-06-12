@@ -19,6 +19,11 @@ erl_crash.dump
 # Temporary files, for example, from tests.
 /tmp/
 
+# Python bytecode and test cache files.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
 # envy:
 *.env
 envs/
