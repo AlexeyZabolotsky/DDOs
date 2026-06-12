@@ -22,3 +22,4 @@ erl_crash.dump
 # envy:
 *.env
 envs/
+__pycache__/
