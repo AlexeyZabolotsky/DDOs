@@ -22,3 +22,9 @@ erl_crash.dump
 # envy:
 *.env
 envs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+redstone_save.json
