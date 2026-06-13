@@ -1,0 +1,22 @@
+[project]
+name = "blockworld"
+version = "1.0.0"
+description = "3D block simulation with field selection and parameter popup UI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ursina>=6.0.0",
+    "numpy>=1.24.0",
+    "pillow>=10.0.0",
+]
+
+[project.scripts]
+blockworld = "blockworld.app:run"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["blockworld*"]
