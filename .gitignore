@@ -26,3 +26,4 @@ envs/
 # Python
 __pycache__/
 *.pyc
+blockworld/*.egg-info/
