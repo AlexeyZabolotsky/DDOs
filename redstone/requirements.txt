@@ -1,0 +1,12 @@
+# Python-зависимости пакета redstone.
+#
+# Пакету redstone сторонние библиотеки НЕ нужны: и ядро (core.py), и
+# 3D-интерфейс (ui.py) используют только стандартную библиотеку Python
+# (tkinter, json, math, copy, dataclasses, ...).
+#
+# tkinter поставляется со стандартной библиотекой, но в Debian/Ubuntu его
+# нужно доустановить системным пакетом python3-tk (это не pip-зависимость):
+#     apt-get install -y python3-tk
+#
+# Файл намеренно оставлен без пакетов, чтобы команда установки окружения
+# `pip install -r redstone/requirements.txt` отрабатывала успешно (exit 0).
