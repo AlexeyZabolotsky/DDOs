@@ -21,5 +21,6 @@ from redstone.core import (
     СОСТОЯНИЯ,
     сообщение,
 )
+from redstone.codex3d_bridge import Codex3DBridge
 
-__all__ = ["Block", "World", "Message", "СОСТОЯНИЯ", "сообщение"]
+__all__ = ["Block", "World", "Message", "СОСТОЯНИЯ", "сообщение", "Codex3DBridge"]
