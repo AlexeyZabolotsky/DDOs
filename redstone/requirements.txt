@@ -1,0 +1,2 @@
+# Runtime dependencies for the redstone package
+# (pure-stdlib – no third-party deps required)
